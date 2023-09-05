@@ -32,6 +32,12 @@ header {
     font-size: 1.8em;
 }
 
+@media (max-width: 767px) {
+    .logo {
+        font-size: 15px;
+    }
+}
+
 .navigation a{
     color: #ffff;
     text-decoration: none;
@@ -78,10 +84,7 @@ section {
 
 @media (max-width:767px) {
     .main h2 span {
-        display: inline-block;
-        margin-top: 10px;
-        color: #ffff;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 600;
     }
 }
@@ -93,6 +96,12 @@ section {
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
+}
+
+@media (max-width:767px) {
+    .main h3 {
+        font-size: 1em;
+    }
 }
 
 .main-btn {
@@ -109,6 +118,12 @@ section {
     transition: 0.7s ease;
 }
 
+@media (max-width:767px) {
+    .main-btn {
+        font-size: 1em;
+    }
+}
+
 .main-btn:hover {
     background-color: #0a49f6;
     transform: scale(1.1);
@@ -118,6 +133,13 @@ section {
     color: #ffff;
     font-size: 2.5em;
     padding-right: 35px;
+}
+
+
+@media (max-width:767px) {
+    .social-icons a {
+        font-size: 2em;
+    }
 }
 
 .title {
